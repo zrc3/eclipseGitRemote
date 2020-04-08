@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class LoginController {
 
-	//登陆
+	//登陆.
 	@RequestMapping("login")
 	public String login(HttpSession session,String username,String password) throws Exception{
 		
